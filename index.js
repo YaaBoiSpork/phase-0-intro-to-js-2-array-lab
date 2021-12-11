@@ -18,11 +18,11 @@ function destructivelyPrependCat(Bob) {
 };
 
 function destructivelyRemoveLastCat() {
-    return cats.pop([4]);
+    return cats.pop();
 };
 
 function destructivelyRemoveFirstCat() {
-    return cats.shift([3]);
+    return cats.shift();
 };
 
 function appendCat(Broom) {
